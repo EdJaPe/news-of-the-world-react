@@ -28,7 +28,10 @@ export const App = () => {
         <Router>
             <div className='app'>
                 <Landing  />
-                <Display />
+               
+                <Display content={content} />
+
+               
             </div>
         </Router>
     )
