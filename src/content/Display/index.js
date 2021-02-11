@@ -11,8 +11,8 @@ export const Display = props => {
                     
                     <h2>{article.title}</h2>
                     <br></br>
-                    <h5>{article.author}</h5>
                     <img src={article.urlToImage}/>
+                    <h5>by {article.author}</h5>
                 </li>
             )
         })
